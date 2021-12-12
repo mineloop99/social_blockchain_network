@@ -1,0 +1,25 @@
+{
+  "name": "social_blockchain_network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mineloop99/social_blockchain_network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mineloop99/social_blockchain_network/issues"
+  },
+  "homepage": "https://github.com/mineloop99/social_blockchain_network#readme"
+  ,
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^4.5.3"
+  }
+}
