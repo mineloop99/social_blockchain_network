@@ -6,10 +6,15 @@ import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
-contract MineLoopToken is ERC20, Pausable, AccessControl, ERC20Burnable {
+contract DecentralizedSocialNetworkToken is
+    ERC20,
+    Pausable,
+    AccessControl,
+    ERC20Burnable
+{
     bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
 
-    constructor() ERC20("ML social Token", "MLS") {
+    constructor() ERC20("Decentralized Social Network Token", "DSN") {
         _setupRole(PAUSER_ROLE, msg.sender);
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _mint(msg.sender, 10000000000 * 10**18);

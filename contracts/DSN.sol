@@ -4,7 +4,7 @@ pragma solidity ^0.8.10;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "./IAccount.sol";
 
-contract MineLoopSocial is IAccount {
+contract DecentralizedSocialNetwork is IAccount {
     IERC20 private immutable _token;
     address public immutable _burnAddress =
         0x000000000000000000000000000000000000dEaD;
